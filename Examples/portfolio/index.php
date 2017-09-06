@@ -18,6 +18,7 @@ in html
             Juan Doe: Personal Website
         </title>
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        
     </head>
 <!-- closing head -->
 
