@@ -1,1 +1,1 @@
-hellos
+<?php header( 'Location: /portfolio/home.html' ) ;  ?>
