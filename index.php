@@ -1,1 +1,1 @@
-<?php header( 'Location: /portfolio/home.html' ) ;  ?>
+<?php header( 'Location: /Homework/home.html' ) ;  ?>
