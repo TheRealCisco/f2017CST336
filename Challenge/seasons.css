@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    font-family:'Pacfico',cursive;
+}
+h1{
+    text-align:center;
+    color:yellow;
+}
+
+.img:hover{
+    display:inline-block;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#txt{
+    color:white;
+    padding-left: 200px;
+    font-size: 200%;
+    
+}
+
+#img1{
+
+    border-top-left-radius: 4em;
+    overflow:hidden;
+}
+#img2{
+
+    border-top-right-radius: 4em;
+    overflow:hidden;
+}
+#img3{
+
+    border-bottom-left-radius: 4em;
+    overflow:hidden;
+}
+#img4{
+
+    border-bottom-right-radius: 4em;
+    overflow:hidden;
+}
