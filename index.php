@@ -13,3 +13,6 @@ echo '<a href="/Homework/hw2/index.php"> Homework 2 </a>';
 <?php
 echo '<a href="/Labs/Lab3/index.php"> Lab 3 </a>';
 ?>
+<?php
+echo '<a href="/Labs/Lab4/index.php"> Lab 4 </a>';
+?>
