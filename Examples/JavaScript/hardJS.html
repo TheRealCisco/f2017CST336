@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hard JS</title>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <script type="text/javascript">
+            console.log("Running")
+        
+            // Declare a variable
+            var firstName;
+            firstName = "Jason";
+            
+            console.log("First Name", firstName)
+        
+            // Initialize a variable (a string)
+            var lastName = "Henderson";
+            
+            // Initialize a Date
+            var now = new Date()
+            
+            // Initialize a number
+            var age = 45
+            
+            // Initialize a real
+            var grade = 45.87
+            
+            // ARRAYS
+            var students = []
+            var classes = new Array()
+            
+            // Add to array
+            students.push("Edith")
+            students.push("Mathew")
+            //classes[] = "336"
+
+            console.log("Students", students)
+            
+            // Delete from array
+            // Start at 0, Delete 2
+            students.splice(0, 2)
+            
+            console.log("Students (After Delete)", students)
+
+            // Insert into array
+            // Start at 0, Delete 0, insert "Billy"
+            students.splice(0, 0, "Billy", "Sally")
+            
+            console.log("Students (After Insert)", students)
+            
+            // FUNCTIONS
+            
+            print("Working", null)
+            
+            function print(arg1, arg2, arg3) {
+                console.log("Printing", arg1, arg2, arg3)
+            }
+            
+            var printer = function() {
+                console.log("print this!")
+            }
+            
+            printer()
+            
+            // OBJECTS
+            
+            // Declare an object
+            var student = {
+                "name" : "Edith",
+                "seat" : "15",
+                "year" : 1,
+                "register" : function(c) {
+                    console.log("registered!")
+                }
+            }
+
+            student.register()
+            
+            console.log(student)
+            
+            // "Static functions", i.e. prototype
+            // Prototype: https://www.w3schools.com/js/js_object_prototypes.asp            
+            
+            // Fun example
+            var twister = function(thing) {
+                return {
+                    "food" : thing,
+                    "eat" : function(what) {
+                        console.log(uhoh(what))
+                        return function(something) {
+                            console.log("something", something)
+                        }(thing)
+                    }
+                }
+                
+                function uhoh(printer) {
+                    console.log(printer)
+                }
+            }
+            
+            twister("banana")
+            
+            twister(function(){
+                return function(){
+                    return orange
+                }
+            }())
+            
+            
+            
+        </script>
+    </body>
+</html>

@@ -22,4 +22,8 @@ echo "<br />";
 
 echo '<a href="/Labs/Lab5/index.php"> Lab5 </a>';
 echo "<br />";
+
+echo '<a href="/Homework/hw4/index.html"> Homework 4 </a>';
+echo "<br />";
+
 ?>
